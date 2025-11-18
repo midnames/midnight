@@ -102,6 +102,36 @@ This repository is a monorepo that contains the following:
 - **[Midnight Starter Template](https://github.com/MeshJS/midnight-starter-template)**: A template for business developers to get started with Midnight. It includes integrations with wallet tools and is framework-specific.
 - **[Midnight Contracts](https://github.com/MeshJS/midnight-contracts)**: A resource for smart contract developers. It contains an `examples` folder showcasing contracts with providers, a CLI, and React components.
 
+## Tooling & DApps
+
+- **[Quick starter](https://github.com/luislucena16/midnight-quick-starter)**
+  
+  A starter template to quickly bootstrap Midnight dApp projects with essential configurations and examples.
+
+- **[Tokenless](https://github.com/luislucena16/tokenless)**
+  
+  Tokenless is a privacy-first tokenization platform built on Midnight. It records contributions on-chain using zk-proofs — no tokens, no exposure, just secure and verifiable investments.
+
+- **[Validator Dashboard](https://github.com/luislucena16/midnight-validator-dashboard)**
+  
+  Professional dashboard to monitor validator nodes and explore data on the Midnight blockchain. Includes real-time metrics, RPC access, system monitoring, and block explorer.
+
+- **[Midnight Setup](https://github.com/MeshJS/midnight-setup)** • [npm](https://www.npmjs.com/package/@meshsdk/midnight-setup) ![npm](https://img.shields.io/npm/dm/@meshsdk/midnight-setup)
+  
+  Complete development setup package for building Midnight Network dApps with Core API, wallet integration, React hooks, and CLI tools.
+
+- **[Contracts Wizard](https://github.com/MeshJS/contracts-wizard)** • [npm](https://www.npmjs.com/package/@meshsdk/midnight-contracts-wizard) ![npm](https://img.shields.io/npm/dm/@meshsdk/midnight-contracts-wizard)
+  
+  An interactive CLI tool to scaffold new Midnight smart contract projects with pre-built contract templates (Tokenization, Staking, Identity, Oracle, and Lending & Borrowing).
+
+- **[Escrow System](https://github.com/luislucena16/tokenless/tree/main/escrow)**
+  
+  A privacy-preserving escrow system built on Midnight Network for secure, trustless transactions.
+
+- **[Proof Server](https://github.com/MeshJS/midnight-proof-server)** • [Docker Hub](https://hub.docker.com/r/meshsdk/midnight-proof-server) ![Docker](https://img.shields.io/docker/pulls/meshsdk/midnight-proof-server)
+  
+  A server for generating and managing zero-knowledge proofs required for Midnight Network transactions and contract interactions.
+
 ## Contributing
 
 ### Contribution Guidelines
@@ -142,4 +172,7 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 
 ---
 
-Made with ❤️ by the [meshjs team](https://github.com/MeshJS/midnight/graphs/contributors)
+<div align="center">
+  <p><img src="assets/mesh-logo.svg" alt="MeshJS Logo" width="30" height="20" style="vertical-align: middle; margin-right: 8px;" /> Powered by <a href="https://meshjs.dev/">MeshJS Team</a></p>
+  <p>Built with ❤️ on Midnight Network</p>
+</div>
